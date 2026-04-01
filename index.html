@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HookedHearts Crochet</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo-area">
+
+            <img src="logo.jpg">
+
+            <h2>HookedHearts</h2>
+
+        </div>
+
+        <a class="insta-btn" href="https://ig.me/m/hookedhearts.in" target="_blank">
+
+            Order on Instagram
+
+        </a>
+
+    </header>
+
+    <section class="hero">
+
+        <h1>Handmade Crochet Creations</h1>
+
+        <p>Unique crochet items made with love</p>
+
+    </section>
+
+    <section class="controls">
+
+        <input type="text" id="search" placeholder="Search product..." onkeyup="searchProduct()">
+
+        <div class="filter-slider">
+
+            <button onclick="filterCategory('all')">All</button>
+            <button onclick="filterCategory('keychain')">Keychains</button>
+            <button onclick="filterCategory('hair')">Hair Accessories</button>
+            <button onclick="filterCategory('decor')">Decor</button>
+
+        </div>
+
+    </section>
+
+    <section class="products" id="products">
+
+    </section>
+    
+
+   <div id="popup" class="popup">
+
+  <div class="popup-content">
+
+    <span class="close" onclick="closePopup()">✖</span>
+
+    <img id="popupImg">
+
+    <h3 id="popupTitle"></h3>
+
+    <p id="popupPrice"></p>
+
+    <a class="order-btn" href="#" target="_blank">
+      Order on Instagram
+    </a>
+
+    <!-- 👇 IMPORTANT: yaha hona chahiye -->
+    <button class="copy-btn" onclick="copyDetails()">
+      Copy Details
+    </button>
+
+    <p class="copy-msg">
+      Tap & paste in Instagram DM
+    </p>
+
+  </div>
+
+</div>
+
+<p class="copy-msg">Tap & paste in Instagram DM</p>    
+
+    </div>
+    <footer class="footer">
+
+<h3>HookedHearts 🧶</h3>
+
+<p>Handmade Crochet with Love 💖</p>
+
+<div class="footer-links">
+<a href="https://www.instagram.com/hookedhearts.in/" target="_blank">
+Follow on Instagram
+</a>
+</div>
+
+<p class="copyright">
+© 2026 HookedHearts. All rights reserved.
+</p>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
