@@ -1,3 +1,7 @@
+*{
+box-sizing:border-box;
+}
+
 body{
 font-family:Arial;
 margin:0;
@@ -37,6 +41,11 @@ text-align:center;
 padding:50px;
 background:#ffe5ec;
 }
+@media (max-width:600px){
+.hero{
+padding:25px 10px;
+}
+}
 
 .controls{
 padding:20px;
@@ -72,6 +81,12 @@ gap:20px;
 padding:40px;
 }
 
+@media (max-width:600px){
+.products{
+padding:15px;
+}
+}
+
 .card{
 background:white;
 border-radius:10px;
@@ -87,7 +102,8 @@ transform:translateY(-5px);
 
 .card img{
 width:100%;
-height:520px;
+height:auto;
+max-height:300px;
 object-fit:cover;
 }
 
@@ -261,3 +277,18 @@ transition:0.3s;
 transform:translateY(-5px);
 box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
+
+@media (max-width:600px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+.logo-area img{
+height:60px;
+}
+
+}
+
