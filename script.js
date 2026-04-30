@@ -2,21 +2,22 @@ const products = [
 
     {
         name: "Crochet Turtle Keychain🐢",
-        price: "₹249",
+        price: "₹199",
         category: "keychain",
         image: "images/turtle.jpg"
     },
 
     {
         name: "Mini Tulip Bouquet Keychain🌷",
-        price: "₹199",
+        price: "₹229",
         category: "keychain",
+        tag : "best",
         image: "images/tulip.jpg"
     },
 
     {
         name: "Evil Eye Keychain🧿",
-        price: "₹149",
+        price: "₹99",
         category: "keychain",
         image: "images/evileye.jpg"
     },
@@ -25,13 +26,12 @@ const products = [
         name: "Camera Keychain📷",
         price: "₹199",
         category: "keychain",
-        tag : "best",
         image: "images/camera keychain.jpg"
     },
 
     {
         name: "Cheery Keychain🍒",
-        price: "₹149",
+        price: "₹99",
         category: "keychain",
         image: "images/cheery.jpg"
     },
@@ -45,28 +45,28 @@ const products = [
 
     {
         name: "Sunflower Keychain🌻",
-        price: "₹149",
+        price: "₹129",
         category: "keychain",
         image: "images/sunflower keychain.jpg"
     },
 
     {
         name: "3D Heart Keychain♥️",
-        price: "₹149",
+        price: "₹99",
         category: "keychain",
         image: "images/3D heart keychain.jpg"
     },
 
     {
         name: "Heart Keychain♥️",
-        price: "₹99",
+        price: "₹79",
         category: "keychain",
         image: "images/heart keychain.jpg"
     },
 
     {
         name: "Panda Keychain",
-        price: "₹299",
+        price: "₹249",
         category: "keychain",
         image: "images/panda.png"
     },
@@ -87,21 +87,21 @@ const products = [
 
     {
         name: "Evil Eye With Pearl Keychain",
-        price: "₹199",
+        price: "₹149",
         category: "keychain",
         image: "images/evileye2.jpg"
     },
 
     {
         name: "Butterfly Hair Clip",
-        price: "₹149",
+        price: "₹99",
         category: "hair",
         image: "images/butterfly hair clip.jpg"
     },
 
     {
         name: "Sunflower Hair Clip",
-        price: "₹149",
+        price: "₹129",
         category: "hair",
         image: "images/sunflower hair clip.jpg"
     },
@@ -129,14 +129,14 @@ const products = [
 
     {
         name: "Red and White Bow Hair Clip",
-        price: "₹199",
+        price: "₹129",
         category: "hair",
         image: "images/pink bow.png"
     },
 
     {
         name: "Shivlinga",
-        price: "₹299",
+        price: "₹249",
         category: "decor",
         image: "images/shiva.png"
     },
@@ -157,38 +157,365 @@ const products = [
 
     {
         name: "Pink Butterfly Hair Clip",
-        price: "₹249",
+        price: "₹99",
         category: "hair",
         image: "images/pink_butterfly.png"
     },
 
     {
         name: "Blue Butterfly Hair tie",
-        price: "₹249",
+        price: "₹149",
         category: "hair",
         image: "images/blue_hairtie.png"
     },
 
     {
         name: "Pink Butterfly Hair tie",
-        price: "₹249",
+        price: "₹149",
         category: "hair",
         image: "images/pink_hairtie.png"
     },
 
     {
+        name: "Angry_hairclip",
+        price: "₹179",
+        category: "hair",
+        image: "images/angry.jpeg"
+    },
+
+    {
+        name: "Tulip Hair band",
+        price: "₹219",
+        category: "hair",
+        image: "images/hair_belt.jpeg"
+    },
+
+    {
         name: "Yellow Butterfly Hair tie",
-        price: "₹249",
+        price: "₹149",
         category: "hair",
         image: "images/yellow_hairtie.png"
     },
 
     {
         name: "Cat Earbuds Case",
-        price: "₹249",
+        price: "₹149",
         category: "decor",
         image: "images/cat_case.png"
     },
+
+    {
+        name: "Sunflower Bouquet Keychain",
+        price: "₹229",
+        category: "keychain",
+        image: "images/k1.jpeg"
+    },
+
+    {
+        name: "Small bunny",
+        price: "₹199",
+        category: "keychain",
+        image: "images/k2.jpeg"
+    },
+
+    {
+        name: "Ball",
+        price: "₹179",
+        category: "keychain",
+        image: "images/k3.jpeg"
+    },
+
+    {
+        name: "Big Bunny",
+        price: "₹299",
+        category: "keychain",
+        tag : "best",
+        image: "images/k4.jpeg"
+    },
+
+    {
+        name: "Sunflower Hairtie",
+        price: "₹169",
+        category: "hair",
+        image: "images/sunflower_hairtie.jpeg"
+    },
+
+    {
+        name: "Tulip Hairtie",
+        price: "₹159",
+        category: "hair",
+        image: "images/tulip_hairtie.jpeg"
+    },
+
+    {
+        name: "Daizy Hairtie",
+        price: "₹179",
+        category: "hair",
+        image: "images/daizy_hairtie.jpeg"
+    },
+
+    {
+        name: "Cat Ear Hairclip",
+        price: "₹129",
+        category: "hair",
+        image: "images/cat.jpeg"
+    },
+    
+    {
+        name: "Hair clip",
+        price: "₹99",
+        category: "hair",
+        image: "images/hair_clip.jpeg"
+    },
+    
+
+    {
+        name: "Mini Heart",
+        price: "₹79",
+        category: "keychain",
+        image: "images/k5.jpeg"
+    },
+    
+    {
+        name: "Red Bow",
+        price: "₹99",
+        category: "keychain",
+        image: "images/k6.jpeg"
+    },
+
+    {
+        name: "Lily Of Vally",
+        price: "₹99",
+        category: "keychain",
+        image: "images/k7.jpeg"
+    },
+    
+    {
+        name: "Sunflower",
+        price: "₹149",
+        category: "keychain",
+        image: "images/k8.jpeg"
+    },
+
+    {
+        name: "Rcb jersey",
+        price: "₹249",
+        category: "keychain",
+        image: "images/k9.jpeg"
+    },
+
+    {
+        name: "Teddy",
+        price: "₹299",
+        category: "keychain",
+        image: "images/k10.jpeg"
+    },
+
+    {
+        name: "Damru",
+        price: "₹249",
+        category: "keychain",
+        image: "images/k11.jpeg"
+    },
+
+    {
+        name: "Small Damru",
+        price: "₹199",
+        category: "keychain",
+        image: "images/k12.jpeg"
+    },
+
+    {
+        name: "Thalposh",
+        price: "₹249",
+        category: "decor",
+        image: "images/thal .jpeg"
+    },
+
+    {
+        name: "Bunny",
+        price: "₹299(per piece)",
+        category: "decor",
+        image: "images/banny.jpeg"
+    },
+
+    {
+        name: "Bow Clip",
+        price: "₹99",
+        category: "hair",
+        image: "images/clip1.jpeg"
+    },
+
+    {
+        name: "Daisy Clip",
+        price: "₹99",
+        category: "hair",
+        image: "images/clip2.jpeg"
+    },
+
+    {
+        name: "Heart Clip",
+        price: "₹99",
+        category: "hair",
+        image: "images/clip3.jpeg"
+    },
+
+    {
+        name: "Penguin",
+        price: "₹199",
+        category: "keychain",
+        image: "images/clip4.jpeg"
+    },
+
+    {
+        name: "Krishna Ji",
+        price: "₹449",
+        category: "decor",
+        image: "images/krishna.jpeg"
+    },
+
+    {
+        name: "Ganesh Ji",
+        price: "₹599",
+        category: "decor",
+        image: "images/ganesh.jpeg"
+    },
+
+    {
+        name: "Sunflower Bun Stick",
+        price: "₹199",
+        category: "hair",
+        image: "images/bun stick.jpeg"
+    },
+
+     {
+        name: "Peacock Feather Book Mark",
+        price: "₹179",
+        category: "decor",
+        image: "images/book mark.jpeg"
+    },
+
+    {
+        name: "Crop top",
+        price: "₹699",
+        category: "decor",
+        image: "images/crop top.jpeg"
+    },
+
+    {
+        name: "Scarf",
+        price: "₹499",
+        category: "decor",
+        image: "images/scarf.jpeg"
+    },
+
+    {
+        name: "Scooty charm",
+        price: "₹249",
+        category: "decor",
+        image: "images/scooty_charm.jpeg"
+    },
+
+    {
+        name: "Purse",
+        price: "₹799",
+        category: "decor",
+        image: "images/purse.jpeg"
+    },
+
+    {
+        name: "Rose Bouquet",
+        price: "₹249",
+        category: "decor",
+        image: "images/rose bouquet.jpg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹199",
+        category: "krishna",
+        image: "images/v1.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹249",
+        category: "krishna",
+        image: "images/v2.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹199",
+        category: "krishna",
+        image: "images/v3.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹349",
+        category: "krishna",
+        image: "images/v4.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹299",
+        category: "krishna",
+        image: "images/v5.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹349",
+        category: "krishna",
+        image: "images/v6.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹199",
+        category: "krishna",
+        image: "images/v7.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹299",
+        category: "krishna",
+        image: "images/v8.jpeg"
+    },
+
+    {
+        name: "Krishna Dress",
+        price: "₹199",
+        category: "krishna",
+        image: "images/v9.jpeg"
+    },
+
+    {
+        name: "Big Bouquet",
+        price: "₹999",
+        category: "decor",
+        image: "images/bouquet.jpeg"
+    },
+
+    {
+        name: "Sunflower",
+        price: "₹249",
+        category: "decor",
+        image: "images/sun.jpeg"
+    },
+
+    {
+        name: "Tulip",
+        price: "₹199",
+        category: "decor",
+        image: "images/tulip.jpeg"
+    },
+
+
+
 
 ];
 
@@ -334,3 +661,4 @@ navigator.clipboard.writeText(message);
 alert("Copied! Now paste in Instagram DM");
 
 }
+
